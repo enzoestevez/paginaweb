@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importaciones Industriales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+        }
+        .header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('WhatsApp Image 2025-03-18 at 16.38.12.jpeg'); /* Imagen de portada */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 3rem;
+            background: #ffffffb3;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        nav {
+            background: white;
+            padding: 15px 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: black;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        section {
+            padding: 80px 20px; /* Aumenté el padding para que no quede oculto detrás del menú */
+            text-align: center;
+        }
+        .rubros {
+            padding: 80px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        .mapa-fondo {
+            background-image: url('background-backdrop-world-map-create-from-square-dots-illustration-vector.jpg'); /* Agregar un fondo de mapa */
+            background-size: cover;
+            background-position: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 80px;
+            justify-items: center;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .rubro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 18px;
+            color: #ff6600;
+        }
+
+        .rubro i {
+            font-size: 40px;
+            color: black;
+        }
+        .section-bg {
+            background-color: #5389cf;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: left;
+            background: #666;
+            padding: 40px;
+            border-radius: 12px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #9d7737;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 40px;
+            right: 60px;
+        }
+        .whatsapp-button img {
+            width: 72px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#quienes">Quiénes Somos</a>
+        <a href="#quehacemos">Qué Hacemos</a>
+        <a href="#rubro">El Rubro</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="header">
+        <h1>FREE TRADE SOLUTION</h1>
+    </div>
+    
+    <section id="quienes">
+        <h2>Quiénes Somos</h2>
+        <p>Somos una empresa Argentina con experiencia y prestigio en el área del comercio internacional, brindando soluciones en compras de repuestos para máquinas industriales en el exterior.
+            Colaboramos con el departamento de comex/compras de nuestros clientes para que minimicen costos y tiempos de búsqueda, realizando nuestro trabajo de manera ágil y rápida.</p>
+    </section>
+    
+    <section id="quehacemos" class="section-bg">
+        <h2>Qué Hacemos</h2>
+        <p>Ofrecemos un servicio eficiente de importación de repuestos para todo tipo de maquinaria industrial. Trabajamos con proveedores internacionales de confianza para garantizar piezas originales, de alta calidad y con tiempos de entrega rápidos. Nos aseguramos de ofrecer asesoría técnica personalizada para que cada cliente obtenga los repuestos adecuados para sus necesidades, optimizando el rendimiento y la productividad de sus equipos</p>
+    </section>
+    
+    <section id="rubro" class="rubros">
+        <h2>Rubros</h2>
+        <div class="mapa-fondo">
+            <div class="rubro">
+                <i class="png-clipart-classic-car-logo-wechat-black-and-white-classic-car-plane-logo-free-logo-design-template-service.png"></i>
+                <p>Automotriz</p>
+            </div>
+            <div class="rubro">
+                <i class="símbolo-de-seguridad-alimentaria-el-icono-internacional-del-vino-material-apto-para-la-alimentación-y-horquilla-239615299.webp"></i>
+                <p>Alimenticia</p>
+            </div>
+            <div class="rubro">
+                <i class="png-clipart-electricity-electric-power-electrical-energy-computer-icons-power-socket-angle-electronics-thumbnail.png"></i>
+                <p>Energía</p>
+            </div>
+            <div class="rubro">
+                <i class="fa-solid fa-print"></i>
+                <p>Gráfica</p>
+            </div>
+            <div class="rubro">
+                <i class="png-clipart-encapsulated-postscript-computer-icons-tool-mechanic-spanner-angle-silhouette.png"></i>
+                <p>Metalmecánica</p>
+            </div>
+            <div class="rubro">
+                <i class="png-transparent-paper-computer-icons-stationery-logo-paper-cut-miscellaneous-angle-rectangle.png"></i>
+                <p>Papelera</p>
+            </div>
+            <div class="rubro">
+                <i class="png-clipart-petroleum-industry-business-petroleum-product-oil-company-business-emblem-people-thumbnail.png"></i>
+                <p>Petrolera</p>
+            </div>
+            <div class="rubro">
+                <i class="png-clipart-chemistry-computer-icons-chemistry-icon-love-heart.png"></i>
+                <p>Química</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto" class="section-bg">
+        <h2>Contacto</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo Electrónico">
+            <textarea placeholder="Mensaje"></textarea>
+            <button>Enviar</button>
+        </div>
+    </section>
+
+    <div class="whatsapp-button">
+        <a href="https://wa.me/549XXXXXXXX" target="_blank">
+            <img src="eb555489-a-dónde-apunta-el-logo-de-whatsapp-mensaje-oculto-en-globo-de-texto.jpg" alt="WhatsApp">
+        </a>
+    </div>
+
+</body>
+</html>
